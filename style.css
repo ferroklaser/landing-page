@@ -1,12 +1,19 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  } 
+
+* {
+    font-family: Roboto;
+}
+
 .header, .footer {
     background-color: #1f2937;
-    font-family: 'Roboto';
 }
 
 .header {
     display: flex;
     flex-direction: column;
-    flex: 1;
 }
 
 ul {
@@ -78,18 +85,89 @@ a {
     font-size: 16px;
 }
 
-.information {
+.some-random {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    text-align: center;
+    margin: 50px 0;
+}
 
+.card {
+    border: 4px solid #3882F6;
+    width: 10em;
+    height: 10em;
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.subtext {
+    color: grey;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    font-size: 18px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.sentence {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 100;
+}
+
+.signage {
+    font-weight: 900;
+    font-size: 20px;
+    text-align: end;
 }
 
 .quote {
     background-color: #E5E7EB;
+    padding: 120px 250px;
 }
 
 .action {
+    background-color: #3882F6;
+    margin: 70px 500px;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
 
+.action-call {
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.action-sign {
+    color: #e5e7eb;
+    font-size: 16px;
+}
+
+.action .signup {
+    border: 1px solid white;
+    padding: 5px 30px;
 }
 
 .footer {
-
+    color: white;
+    padding: 25px 25px;
+    text-align: center;
 }
