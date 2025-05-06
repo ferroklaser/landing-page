@@ -6,11 +6,13 @@
 .header {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 ul {
     list-style-type: none;
     display: flex;
+    gap: 20px;
 }
 
 a {
@@ -24,7 +26,7 @@ a {
 }
 
 .main {
-    font-size: 48px;
+    font-size: 45px;
     color: #f9faf8;
     font-weight: 900;
 }
@@ -36,20 +38,44 @@ a {
 
 .placeholder {
     height: 200px;
-    width: 400px;
+    width: 500px;
     background-color: grey;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #e5e7eb;
+    flex-shrink: 0;
 }
 
 .header-top {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .header-bottom {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 100px;
+}
+
+.header-bottom .left {
+    padding: 0;
+    margin: 0;
+    flex-shrink: 1;
+}
+
+.signup {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    color: #E5E7EB;
+    padding: 8px 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 16px;
 }
 
 .information {
