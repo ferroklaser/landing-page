@@ -1,0 +1,69 @@
+.header, .footer {
+    background-color: #1f2937;
+    font-family: 'Roboto';
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.placeholder {
+    height: 200px;
+    width: 400px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+}
+
+.header-top {
+    display: flex;
+}
+
+.header-bottom {
+    display: flex;
+}
+
+.information {
+
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.action {
+
+}
+
+.footer {
+
+}
